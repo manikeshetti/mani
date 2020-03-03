@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cardo', serif;
+}
+
+.backimg{
+    width: 100%;
+    height: 100vh;
+    background-image:url('bg1.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.profile{
+    width: 360px;
+    background-color: rgba(0, 0,0,0.7);
+    padding: 30px 0;
+    border-radius: 10%;
+}
+
+img{
+    height: 250px;
+    border-radius: 55%;
+}
+
+.profiletext{
+   margin-bottom: 20px;
+}
+
+.profiletext h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.profiletext h3{
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+i{
+    color: white;
+}
+
+@media screen and (max-width:720px)
+{
+    .backimg{
+        width: 100%;
+    }
+    .profile{
+        width:80%;
+        /*padding: 20px 0;
+
+    }
+    img{
+        height:240px;
+    }
+
+}
